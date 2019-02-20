@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.navbar-brand img {
+	width: 62px;
+	margin: 5px;
+	margin-right: 5px;
+}
+
+.navbar-brand span {
+	color: #007bff;
+	font-size: 38px;
+	font-weight: bold;
+	padding-right: 15px;
+	margin: 0px;
+	
+}
+
+.clearfix {
+	clear: both;
+}
+
+#viewPanel {
+	
+}
+#videoPlayer {
+	width: 100%;
+	height: 500px;
+}
+
+#pagination li {
+	margin: 0px 4px;
+}
+
+#tooltip-messasge {
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+}
+
+.media {
+	background-color: white;
+	border: 1px solid #007bff;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+
+.navbar-brand {
+	border: 2px solid #007bff;
+	border-radius: 5px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.dropdown-item {
+	color: #007bff;
+}
+.dropdown-item:hover {
+	color: #0056b3;
+	background-color: inherit;
+}
+
