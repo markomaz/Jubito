@@ -24,8 +24,8 @@ spl_autoload_register(function($class) {
 	require_once("classes/{$class}.php");
 });
 
-require_once('functions/sanitize.php')
-require_once('functions/redirect.php')
-require_once('functions/httpGetRequest.php')
+require_once('functions/sanitize.php');
+require_once('functions/redirect.php');
+require_once('functions/httpGetRequest.php');
 
 ?>
